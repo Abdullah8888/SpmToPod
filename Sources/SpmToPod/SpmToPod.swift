@@ -27,7 +27,7 @@ class ImageHelper {
             return Bundle.module
         #else
             print("it is not spm")
-            return Bundle(for: self)
+        return Bundle.main
         #endif
     }
     
