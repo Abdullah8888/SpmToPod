@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SpmToPod"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "To test how spm package can be deploy as pod"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Want to deploy spm as pod"
+  spec.description  = "Want to deploy spm as pod, and i hope the process will be seemless"
 
   spec.homepage     = "https://github.com/Abdullah8888/SpmToPod"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
