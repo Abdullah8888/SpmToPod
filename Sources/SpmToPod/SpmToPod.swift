@@ -23,8 +23,10 @@ class SampleClass {}
 class ImageHelper {
     static var resolvedBundle: Bundle {
         #if SWIFT_PACKAGE
+            print("it is spm")
             return Bundle.module
         #else
+            print("it is not spm")
             return Bundle(for: self)
         #endif
     }
