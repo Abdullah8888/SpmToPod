@@ -4,7 +4,8 @@ import Foundation
 extension View {
     
     public func showImage() -> some View {
-        Text("asdf")
+        Image("my_tree", bundle: ImageHelper.resolvedBundle)
+            .frame(width: 200, height: 200)
         
     }
 }
