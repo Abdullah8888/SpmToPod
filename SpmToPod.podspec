@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SpmToPod"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.8"
   spec.summary      = "To test how spm package can be deploy as pod"
 
   # This description is used to generate tags and improve search results.
@@ -110,9 +110,9 @@ Pod::Spec.new do |spec|
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
   
-  spec.resource_bundles = {
-    'SpmToPod' => ['Sources/SpmToPod/Resources/*.xcassets']
-  }
+  
+  spec.resources = "Sources/SpmToPod/Resources/*.xcassets"
+  
   spec.swift_versions = "5.0"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
